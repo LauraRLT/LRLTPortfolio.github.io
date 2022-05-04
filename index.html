@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
     <title>Laura Travis's Programming Portfolio</title>
@@ -10,8 +14,8 @@
   <body>
     <header>
       <nav>
-        <h2>Jump To: </h2>
-        <ul class="nav-list">
+        <h4>Jump To: </h4>
+        <ul class="item-list" id="nav-list">
           <li class="nav-item"><a href="#skills">Skills</a></li>
           <li class="nav-item"><a href="#projects">Projects</a></li>
           <li class="nav-item"><a href="#contact">Contact Me</a></li>
@@ -21,38 +25,58 @@
     
     <main>
       <h1>Welcome to Laura Travis's Programming Portfolio (WIP)</h1>
-      <section class="about">
+      <section id="about">
         <h2>About Me</h2>
+        <img id="my-picture" src="./resources/images/Me.JPG">
         <p>I am a 33 year-old female with a Master's Degree in Mathematics and a Minor in Computer Science. Since 2021, I have been using sites such as w3schools and codecademy to deepen and expand my programming knowledge. Since 2016, I have been working as a full-time high school math teacher, but I have grown tired of the low pay coupled with the long hours. Programming has always interested me and I have always loved technology, puzzles, and challenging my mind. In the past, I have done some minor modding of computer games and frequently use complex excel formulas and formatting at work to make my job easier.</p>
         <p>I have greatly enjoyed learning new programming languages and how websites are built and modified. Eventually, I hope to become a remote Software Engineer, but I am currently hoping to find a remote job as a Junior Developer so that I can gain the experience necessary to be a successful Software Engineer. My preferred area of programming is working with Javascript as a back-end developer, but I am comfortable with the front-end as well. As someone who has used multiple websites and programs that are less than ideal and felt the frustration that comes from an incomplete design, I am passionate about helping to create websites that provide an optimal and seamless user experience.</p>
       </section>
-      <img class="my-picture" src="./resources/images/Me.JPG">
-      <section class="skills">
+      <section id="skills">
         <h2>Skills and Language Proficiencies</h2>
-        <ul class="skill-list">
-          <li>Insert Skills Here</li>
+        <ul class="item-list">
+          <li class="skill-item">Insert Skills Here</li>
+          <li class="skill-item">Insert Skills Here</li>
+          <li class="skill-item">Insert Skills Here</li>
         </ul>
       </section>
-      <section class="projects">
+      <section id="projects">
         <h2>Projects</h2>
-        <div class="project-item">
-          <h3>Insert Title</h3>
-          <p>Insert Description</p>
-          <ul class="project-links">
-            <li class="project-code"><a href="#">Insert Link to Code/Github</a></li>
-            <li class="project-demo"><a href="#">Insert Link to Demo</a></li>
-          </ul>
+        <div class="item-list">
+          <div class="project-item">
+            <h3>Insert Title</h3>
+            <p>Insert Description</p>
+            <ul class="project-links">
+              <li class="project-code"><a href="#">Insert Link to Code/Github</a></li>
+              <li class="project-demo"><a href="#">Insert Link to Demo</a></li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <h3>Insert Title</h3>
+            <p>Insert Description</p>
+            <ul class="project-links">
+              <li class="project-code"><a href="#">Insert Link to Code/Github</a></li>
+              <li class="project-demo"><a href="#">Insert Link to Demo</a></li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <h3>Insert Title</h3>
+            <p>Insert Description</p>
+            <ul class="project-links">
+              <li class="project-code"><a href="#">Insert Link to Code/Github</a></li>
+              <li class="project-demo"><a href="#">Insert Link to Demo</a></li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
     
-    <footer class="contact">
+    <footer id="contact">
       <h2>Contact Info</h2>
-      <ul class="contact-list">
+      <ul class="item-list">
         <li id="email">LauraRLTravis@gmail.com</li>
         <li id="linkedin"><a href="www.linkedin.com/in/laura-travis-2288b575">LinkedIn Profile</a></li>
-        <li>Resume and References Available by Request</li>
       </ul>
+      <p>Resume and References Available by Request</p>
     </footer>
     
   </body>
