@@ -1796,6 +1796,7 @@ input, select, textarea {
 			margin-top: -0.75em;
 		}
 
+
 /* Form */
 
 	form {
@@ -2711,6 +2712,16 @@ input, select, textarea {
 		right: 0;
 	}
 
+	#subtitle {
+		font-weight: 150;
+		font-style: italic;
+		margin: 0.5em 0 0;
+	}
+	
+	#references {
+		margin-top: 0.25;
+	}
+
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
@@ -2753,7 +2764,7 @@ input, select, textarea {
 			#header > header p {
 				color: #d2f2e9;
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 0;
 			}
 
 		#header > footer {
